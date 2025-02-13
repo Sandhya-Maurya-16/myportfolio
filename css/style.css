@@ -1,0 +1,165 @@
+.outer {
+    min-height: 703px;
+    width: 100%;
+    background-image: url('../images/clay-banks-u27Rrbs9Dwc-unsplash\ \(2\).jpg');
+    background-attachment: fixed;
+    background-color: crimson;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tab-hero {
+    position: sticky;
+    top: 6px;
+}
+
+.hire {
+    background-color: #28e98c;
+    padding: 15px 80px;
+    border: 2px solid #28e98c;
+    border-radius: 30px;
+    color: var(--white);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: all .2s ease;
+}
+
+.hire:hover {
+    background-color: transparent;
+    color: #f1f1f1;
+}
+
+span {
+    color: #28e98c;
+}
+
+sup {
+    color: #fc4545;
+    font-size: 12px;
+    top: 0;
+}
+
+.tab-common {
+    height: 30px;
+    width: 130px;
+    font-size: 13px;
+}
+
+.btn-common {
+    height: 40px;
+    width: 80px;
+    font-size: 17px;
+}
+
+.tab-sidebar {
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+}
+
+.into-heading {
+    font-size: 78px;
+    letter-spacing: -0.2px;
+    line-height: 90px;
+    margin-bottom: 43px;
+    font-weight: 300;
+}
+
+.sub-title {
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+
+.desc {
+    line-height: 30px;
+    letter-spacing: .2px;
+}
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 4px;
+    height: 100%;
+    background: #fff;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 50px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.timeline-content h5 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.timeline-content small {
+    display: block;
+    color: #aaa;
+    margin-top: 0.5rem;
+}
+
+.color-gray {
+    color: #aaa;
+}
+
+.portfolio-parent {
+    position: relative;
+}
+
+.portfolio-child {
+    position: absolute;
+    bottom: 12%;
+    left: 4%;
+}
+
+.input-group {
+    margin-bottom: 35px;
+    color: #fff;
+    font-size: 14px;
+}
+
+select {
+    color: #ddd8d8;
+}
+
+.input-group input,
+select {
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 18px;
+    padding: 0;
+    transition: .2s;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    margin: 0;
+}
